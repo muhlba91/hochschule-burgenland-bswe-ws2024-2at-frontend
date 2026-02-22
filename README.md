@@ -1,9 +1,9 @@
 # Hochschule Burgenland - BSWE - WS2024 - 2nd Attempt - Weather App - Frontend - Reference
 
-[![](https://img.shields.io/github/license/muhlba91/fh-burgenland-bswe-ws2024-2at-frontend?style=for-the-badge)](LICENSE.md)
-[![](https://img.shields.io/github/actions/workflow/status/muhlba91/fh-burgenland-bswe-ws2024-2at-frontend/verify.yml?style=for-the-badge)](https://github.com/muhlba91/fh-burgenland-bswe-ws2024-2at-frontend/actions/workflows/verify.yml)
-[![](https://api.scorecard.dev/projects/github.com/muhlba91/fh-burgenland-bswe-ws2024-2at-frontend/badge?style=for-the-badge)](https://scorecard.dev/viewer/?uri=github.com/muhlba91/fh-burgenland-bswe-ws2024-2at-frontend)
-[![](https://img.shields.io/github/release-date/muhlba91/fh-burgenland-bswe-ws2024-2at-frontend?style=for-the-badge)](https://github.com/muhlba91/fh-burgenland-bswe-ws2024-2at-frontend/releases)
+[![](https://img.shields.io/github/license/muhlba91/hochschule-burgenland-bswe-ws2024-2at-frontend?style=for-the-badge)](LICENSE.md)
+[![](https://img.shields.io/github/actions/workflow/status/muhlba91/hochschule-burgenland-bswe-ws2024-2at-frontend/verify.yml?style=for-the-badge)](https://github.com/muhlba91/hochschule-burgenland-bswe-ws2024-2at-frontend/actions/workflows/verify.yml)
+[![](https://api.scorecard.dev/projects/github.com/muhlba91/hochschule-burgenland-bswe-ws2024-2at-frontend/badge?style=for-the-badge)](https://scorecard.dev/viewer/?uri=github.com/muhlba91/hochschule-burgenland-bswe-ws2024-2at-frontend)
+[![](https://img.shields.io/github/release-date/muhlba91/hochschule-burgenland-bswe-ws2024-2at-frontend?style=for-the-badge)](https://github.com/muhlba91/hochschule-burgenland-bswe-ws2024-2at-frontend/releases)
 
 This is a reference implementation of the weather application's frontend for the 2nd attempt of the "Software Management II" course at the Hochschule Burgenland in WS2024.
 It solely acts as a reference, not as a complete implementation, and it is not expected by students to produce a similar implementation.

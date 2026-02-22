@@ -1,9 +1,9 @@
 {
-  "name": "@muhlba91/fh-burgenland-bswe-ws2024-2at-frontend",
+  "name": "@muhlba91/hochschule-burgenland-bswe-ws2024-2at-frontend",
   "version": "0.0.0",
   "description": "Hochschule Burgenland - BSWE - WS2024 - 2nd Attempt - Weather App - Frontend - Reference",
   "type": "module",
-  "repository": "https://github.com/muhlba91/fh-burgenland-bswe-ws2024-2at-frontend",
+  "repository": "https://github.com/muhlba91/hochschule-burgenland-bswe-ws2024-2at-frontend",
   "license": "MIT",
   "keywords": [
     "fh-burgenland",
