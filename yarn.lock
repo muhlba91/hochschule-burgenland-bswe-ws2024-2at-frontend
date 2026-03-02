@@ -9496,12 +9496,12 @@ __metadata:
   linkType: hard
 
 "vue-router-mock@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "vue-router-mock@npm:2.0.0"
+  version: 2.0.2
+  resolution: "vue-router-mock@npm:2.0.2"
   peerDependencies:
     vue: ^3.2.23
-    vue-router: ^4.0.12
-  checksum: 10c0/3ec959659482a304f6acf56be1f86e162783afb949fc535016a10e79595d6877445cf3775a29d677ea575831ff532e7f911120a40c0ccda2a80b2829627dca4c
+    vue-router: ^4.0.12 || ^5.0.0
+  checksum: 10c0/acba10c7dd63cb7bf2e4f1d3bd20708a8dc301597dcdf0b9fea8a146e1955f999f608f40d34b6fa06913f87f1d155652c0f9d32158ebd118601696268673e3f1
   languageName: node
   linkType: hard
 
