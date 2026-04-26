@@ -15,3 +15,11 @@ interface ImportMetaEnv {
 interface ImportMeta {
   readonly env: ImportMetaEnv
 }
+
+interface Window {
+  APP_CONFIG?: {
+    VITE_BACKEND_API_URL?: string;
+    VITE_METAR_API_URL?: string;
+    VITE_AVWX_API_KEY?: string;
+  };
+}
