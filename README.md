@@ -19,11 +19,32 @@ The OpenAPI specification can be found in the [backend repository](https://githu
 ## Configuration
 
 See [src/config/api.ts](./src/config/api.ts) for all available and default configuration options.
+
+### Build-time Configuration
+
 To run the frontend successfully, you need to provide the following environment variables (development/build time):
 
 - `VITE_BACKEND_API_URL`: The URL of the backend API.
 - `VITE_METAR_API_URL`: The URL of the METAR API.
 - `VITE_AVWX_API_KEY`: The API key for the [Aviation Weather Rest API](https://avwx.rest/) in the format `Token avwx-api-key`. The value will be used in the `Authorization` header when calling the API.
+
+### Runtime Configuration (Dynamic Loading)
+
+For deploying multiple instances with different configurations using the same build artifact, you can use the runtime configuration provided via `public/config.js`.
+
+This file is loaded dynamically by the browser and can be modified or replaced on the deployed server (e.g., via a Docker entrypoint script or during CI/CD).
+
+To enable runtime overrides, set `enabled: true` in `public/config.js`:
+
+```javascript
+window.APP_CONFIG = {
+  enabled: true,
+  VITE_BACKEND_API_URL: 'https://api.example.com/api',
+  // ... other overrides
+};
+```
+
+If `enabled` is `false` (default), the application will fall back to the build-time environment variables.
 
 ---
 

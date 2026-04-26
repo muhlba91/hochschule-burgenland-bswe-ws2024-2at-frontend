@@ -1,4 +1,7 @@
 window.APP_CONFIG = {
+  // Whether to use this runtime configuration. Set to true to override build-time env vars.
+  enabled: false,
+
   // Base URL for the backend API.
   VITE_BACKEND_API_URL: 'http://localhost:8080/api',
 
