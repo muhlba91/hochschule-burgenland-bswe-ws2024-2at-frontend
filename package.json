@@ -27,7 +27,7 @@
   },
   "packageManager": "yarn@4.16.0",
   "dependencies": {
-    "@quasar/extras": "^1.17.0",
+    "@quasar/extras": "^2.0.0",
     "axios": "^1.13.2",
     "leaflet": "^1.9.4",
     "quasar": "^2.18.7",
