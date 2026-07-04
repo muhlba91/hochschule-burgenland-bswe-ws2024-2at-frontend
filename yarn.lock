@@ -543,11 +543,16 @@ __metadata:
   linkType: hard
 
 "@cyclonedx/yarn-plugin-cyclonedx@npm:^3.2.1":
-  version: 3.3.1
-  resolution: "@cyclonedx/yarn-plugin-cyclonedx@npm:3.3.1"
+  version: 3.3.2
+  resolution: "@cyclonedx/yarn-plugin-cyclonedx@npm:3.3.2"
+  dependenciesMeta:
+    eslint:
+      unplugged: true
+    eslint-plugin-eslint-comments:
+      unplugged: true
   bin:
     cyclonedx-yarn: bin/cyclonedx-yarn-cli.js
-  checksum: 10c0/d0747f5db7f0e7abe18e67a8e3f23bd7a251bc3151a68cabc64fc7bb381ccd2a96f1a7c63249dc37d5f96993550ad6bf2a3c1851f2658d390018e5c7562086c8
+  checksum: 10c0/50d20a803a82737ad85a9554761e5d9f0b8c3c99ddcf0dc6ef111e2e106c167d0457302e9d1efb678ce3bf3aca3ad95e05edc74e67e8880437abe3eed6ae269b
   languageName: node
   linkType: hard
 
