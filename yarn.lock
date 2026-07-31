@@ -543,8 +543,8 @@ __metadata:
   linkType: hard
 
 "@cyclonedx/yarn-plugin-cyclonedx@npm:^3.2.1":
-  version: 3.3.2
-  resolution: "@cyclonedx/yarn-plugin-cyclonedx@npm:3.3.2"
+  version: 3.3.3
+  resolution: "@cyclonedx/yarn-plugin-cyclonedx@npm:3.3.3"
   dependenciesMeta:
     eslint:
       unplugged: true
@@ -552,7 +552,7 @@ __metadata:
       unplugged: true
   bin:
     cyclonedx-yarn: bin/cyclonedx-yarn-cli.js
-  checksum: 10c0/50d20a803a82737ad85a9554761e5d9f0b8c3c99ddcf0dc6ef111e2e106c167d0457302e9d1efb678ce3bf3aca3ad95e05edc74e67e8880437abe3eed6ae269b
+  checksum: 10c0/7767e3dea1ac72903078f1bd2be023ad02af7fd206e3f329121f7b0a63c3cc63e9b52594ba8124c98b1877583a1ff29a7c440f8b7971af9340ad7ef66da1bb02
   languageName: node
   linkType: hard
 
