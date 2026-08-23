@@ -1,4 +1,4 @@
-import { type Units } from 'src/model/forecast'
+import { type Units } from '../model/forecast'
 
 /**
  * Utility class for formatting weather values and units consistently across the application.

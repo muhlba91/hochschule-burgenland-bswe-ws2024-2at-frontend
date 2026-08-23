@@ -1,8 +1,11 @@
 import { defineConfig } from 'vitest/config';
 import vue from '@vitejs/plugin-vue';
 import { quasar, transformAssetUrls } from '@quasar/vite-plugin';
-import tsconfigPaths from 'vite-tsconfig-paths';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 process.env.TZ = 'UTC';
 
@@ -54,11 +57,10 @@ export default defineConfig({
   plugins: [
     vue({
       template: { transformAssetUrls },
-    }) as Plugin,
+    }) as any,
     quasar({
       sassVariables: 'src/css/quasar.variables.scss',
-    }) as Plugin,
-    tsconfigPaths() as Plugin,
+    }) as any,
   ],
   resolve: {
     alias: {

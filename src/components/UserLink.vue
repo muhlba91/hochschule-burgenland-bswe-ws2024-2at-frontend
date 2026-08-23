@@ -156,7 +156,7 @@ import { ErrorHandler } from '../utils/errorHandler'
 import { ApiConfig } from '../config/api'
 import { type ApiError } from '../model/apiError'
 import { type FavoriteLocation } from '../model/favoriteLocation'
-import { type User } from 'src/model/user'
+import { type User } from '../model/user'
 import LocationCreateDialog from './LocationCreateDialog.vue'
 
 const props = withDefaults(defineProps<User>(), {})

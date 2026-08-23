@@ -1,5 +1,5 @@
 import axios from 'axios'
-import type { ApiError } from 'src/model/apiError'
+import type { ApiError } from '../model/apiError'
 
 /**
  * Utility class for handling and formatting error messages consistently across the application.

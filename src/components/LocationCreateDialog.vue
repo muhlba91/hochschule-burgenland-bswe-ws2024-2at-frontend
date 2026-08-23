@@ -65,7 +65,7 @@
 import { ref, computed, watch } from 'vue'
 import axios from 'axios'
 import { ApiConfig } from '../config/api'
-import { type ApiError } from 'src/model/apiError'
+import { type ApiError } from '../model/apiError'
 import ErrorAlert from './ErrorAlert.vue'
 import { QInput } from 'quasar'
 

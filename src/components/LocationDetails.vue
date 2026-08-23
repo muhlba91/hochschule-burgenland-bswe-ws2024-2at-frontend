@@ -27,7 +27,7 @@
 </template>
 
 <script setup lang="ts">
-import { type FavoriteLocation } from 'src/model/favoriteLocation'
+import { type FavoriteLocation } from '../model/favoriteLocation'
 import { CoordinatesFormatter } from '../utils/coordinatesFormatter'
 
 defineProps<{ location: FavoriteLocation }>()

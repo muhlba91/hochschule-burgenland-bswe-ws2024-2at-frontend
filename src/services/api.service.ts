@@ -3,7 +3,7 @@ import { ApiConfig } from '../config/api'
 import type { FavoriteLocation } from '../model/favoriteLocation'
 import type { Forecast } from '../model/forecast'
 import type { User } from '../model/user'
-import type { Metar } from 'src/model/metar'
+import type { Metar } from '../model/metar'
 
 /**
  * Service class that handles all API communication with the backend.

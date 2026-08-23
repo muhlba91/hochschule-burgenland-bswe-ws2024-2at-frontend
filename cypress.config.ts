@@ -3,6 +3,7 @@ import { injectQuasarDevServerConfig } from '@quasar/quasar-app-extension-testin
 import { defineConfig } from 'cypress'
 
 export default defineConfig({
+  allowCypressEnv: false,
   fixturesFolder: 'test/cypress/fixtures',
   screenshotsFolder: 'test/cypress/screenshots',
   videosFolder: 'test/cypress/videos',

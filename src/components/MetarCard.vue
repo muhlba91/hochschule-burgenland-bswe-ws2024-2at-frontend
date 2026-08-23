@@ -17,8 +17,8 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import { type Metar } from 'src/model/metar'
-import { DateFormatter } from 'src/utils/dateFormatter'
+import { type Metar } from '../model/metar'
+import { DateFormatter } from '../utils/dateFormatter'
 
 const props = defineProps<{
   metar: Metar

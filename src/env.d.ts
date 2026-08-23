@@ -10,6 +10,8 @@ interface ImportMetaEnv {
   readonly VITE_BACKEND_API_URL: string
   readonly VITE_METAR_API_URL: string
   readonly VITE_AVWX_API_KEY: string
+  readonly VUE_ROUTER_MODE?: 'hash' | 'history' | 'abstract'
+  readonly VUE_ROUTER_BASE?: string
 }
 
 interface ImportMeta {

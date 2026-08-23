@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import { type ApiError } from 'src/model/apiError'
+import { type ApiError } from '../model/apiError'
 
 defineProps<{
   error: ApiError | null
