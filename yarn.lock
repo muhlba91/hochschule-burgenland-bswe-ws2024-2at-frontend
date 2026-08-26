@@ -1583,8 +1583,8 @@ __metadata:
   linkType: hard
 
 "@quasar/quasar-app-extension-testing-unit-vitest@npm:^3.0.0-alpha.1":
-  version: 3.0.0-alpha.1
-  resolution: "@quasar/quasar-app-extension-testing-unit-vitest@npm:3.0.0-alpha.1"
+  version: 3.0.0
+  resolution: "@quasar/quasar-app-extension-testing-unit-vitest@npm:3.0.0"
   dependencies:
     "@clack/prompts": "npm:^1.4.0"
     es-toolkit: "npm:^1.42.0"
@@ -1599,7 +1599,7 @@ __metadata:
   peerDependenciesMeta:
     "@vitest/ui":
       optional: true
-  checksum: 10c0/a12b917a68c91091cc2bd36c8d7a8d1bb9812a41653e7d9389455c2e335fcc7ebcbf7946bae3757d25bdb60440994ee77ca4488112ff441627fbbea8d8923ff3
+  checksum: 10c0/53b8680f10569db83ac2b8470e3bd1d285d4646c58ab9717de70ab73bca411ddfadc416a69d841936500f9ef99f993ae11775e16a6a010d5de14a1842506412f
   languageName: node
   linkType: hard
 
