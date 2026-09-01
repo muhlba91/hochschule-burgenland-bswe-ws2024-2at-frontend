@@ -38,7 +38,7 @@
     "@cyclonedx/yarn-plugin-cyclonedx": "^3.4.0",
     "@eslint/js": "^10.0.1",
     "@quasar/app-vite": "^3.8.0",
-    "@quasar/quasar-app-extension-testing-e2e-cypress": "^6.3.0",
+    "@quasar/quasar-app-extension-testing-e2e-cypress": "^7.0.0",
     "@quasar/quasar-app-extension-testing-unit-vitest": "^3.0.0-alpha.1",
     "@types/leaflet": "^1.9.22",
     "@types/node": "^26.2.0",
