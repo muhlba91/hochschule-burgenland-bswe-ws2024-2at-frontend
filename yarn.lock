@@ -1258,8 +1258,8 @@ __metadata:
   linkType: hard
 
 "@quasar/app-vite@npm:^3.8.0":
-  version: 3.10.1
-  resolution: "@quasar/app-vite@npm:3.10.1"
+  version: 3.10.2
+  resolution: "@quasar/app-vite@npm:3.10.2"
   dependencies:
     "@clack/prompts": "npm:^1.8.1"
     "@quasar/art": "npm:^1.0.0"
@@ -1324,7 +1324,7 @@ __metadata:
       optional: true
   bin:
     quasar: ./bin/quasar.js
-  checksum: 10c0/7e50d479ed26adb8df8030e84a585fea731bb10ddbfd1adfe8c3bf6347cfde09d8d0673c856712b2ba48b3f1faab6c622e945df83bdc46f2051f2201f22b27f7
+  checksum: 10c0/64efe512bf986622238ea881479eeee5dda982b7df346c99840b0c27a681e1486eaf641f1891e88266df22851e6379bbbc30ff00fa2762e068eabaa3f099ec3b
   languageName: node
   linkType: hard
 
